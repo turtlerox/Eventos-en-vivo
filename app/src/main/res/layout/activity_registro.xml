@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <EditText
+            android:id="@+id/txtUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Usuario"
+            android:layout_marginBottom="12dp" />
+
+        <EditText
+            android:id="@+id/txtContrasena"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Categorías de interés"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <CheckBox android:id="@+id/chkConciertos" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Conciertos" />
+        <CheckBox android:id="@+id/chkEventosDeportivos" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Eventos Deportivos" />
+        <CheckBox android:id="@+id/chkCursos" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Cursos" />
+        <CheckBox android:id="@+id/chkConferencias" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Conferencias" />
+        <CheckBox android:id="@+id/chkTalleres" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Talleres" />
+
+        <Button
+            android:id="@+id/btnRegistrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrar"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#D32F2F"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</ScrollView>

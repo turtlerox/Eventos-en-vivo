@@ -1,0 +1,12 @@
+<resources>
+    <color name="colorPrimary">#D32F2F</color>
+    <color name="colorPrimaryDark">#B71C1C</color>
+    <color name="colorAccent">#FFCDD2</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+<color name="colorRojo">#F44336</color>
+<color name="colorRojoOscuro">#D32F2F</color>
+
+
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Eventos en Vivo</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="iniciar_sesion">Iniciar Sesión</string>
+    <string name="usuario">Usuario</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="categorias_interes">Categorías de interés</string>
+    <string name="crear_evento">Crear Evento</string>
+    <string name="ver_eventos">Ver Lista de Eventos</string>
+    <string name="ver_notificaciones">Ver Notificaciones</string>
+    <string name="fecha">Fecha</string>
+    <string name="hora">Hora</string>
+    <string name="lugar">Lugar</string>
+    <string name="descripcion">Descripción</string>
+</resources>
